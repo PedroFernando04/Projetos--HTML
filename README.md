@@ -1,1 +1,1 @@
-nao funciona😭😭
+faltou especificar cria
