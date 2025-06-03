@@ -1,0 +1,67 @@
+.maxWidth{
+    padding: 2em 0em 2em 0em
+}
+.introducao{
+    width: 100%;
+    padding: 2em;
+    background-color: #f3eadd;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.maxWidth_articles{
+padding: 0em 2em;
+}
+
+.articles_style{
+    display: flex;
+    align-items: center;
+    gap: 3em;
+    flex-wrap: wrap;
+    background-color: var(--hover-color);
+    border-radius: 10px;
+    padding: 2em;
+    margin: 2em auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    max-width: 900px;
+}
+
+.articles_style img{
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    background-color: rgba(0, 153, 51, 0.2);
+}
+
+.descricao_livro{
+    flex: 1;
+
+}
+
+.descricao_livro h2 {
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+    color: #050505;
+    justify-content: center;
+    align-items: center;
+}
+
+.descricao_livro p {
+    font-size: 1em;
+    color: #070707;
+    line-height: 1.6;
+}
+
+@media (max-width: 42em) {
+    .articles_style {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .img_articles {
+        width: 60%;
+    }
+}
