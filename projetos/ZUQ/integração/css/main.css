@@ -170,9 +170,28 @@ body h1{
     margin-right: auto;
     width: 300px;
 
+    :hover{
+        opacity: 0.8;
+}
+
 }
 
 .integracao button{
     padding: 5px;
     margin: auto;
+
+    border: #202042;
+    border-radius: 20px;
+    border-style:ridge;
+
+    margin:3.65%;
+    height: 40px;
+    width: auto;
+
+    background-color: #202042;
+    color: white;
+    font-weight: bold;
+
+
 }
+
